@@ -1,0 +1,78 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  margin-left: -30px;
+}
+.photo-card {
+  height: 330px;
+  flex-basis: calc(25% - 35px);
+  margin-top: 60px;
+  margin-left: 35px;
+  text-decoration: none;
+}
+.photo-card__img {
+  width: 350px;
+  height: 80%;
+  max-width: unset;
+  object-fit: cover;
+  border: 2px solid black;
+  border-radius: 12px;
+  transition: transform 0.15s linear;
+}
+.photo-card__img:hover {
+  transform: scale(1.03);
+  cursor: zoom-in;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 350px;
+  height: 70px;
+  background-color: #000;
+  border: none;
+  border-radius: 12px;
+  border: 2px solid #000;
+}
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-content: center;
+  margin-right: 4px;
+}
+.info-item:last-child {
+  margin-right: 0;
+}
+
+.info-item__title {
+  font-family: 'Comfortaa', cursive;
+  color: wheat;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.info-item__valeu {
+  font-family: 'Comfortaa', cursive;
+  color: wheat;
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.sl-counter {
+  font-family: 'Comfortaa', cursive;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.hidden {
+  visibility: hidden;
+  display: none;
+  opacity: 0;
+}
