@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_KEY = '30550641-0f108504ecdb994905cf7394f';
+const API_KEY = '30825002-b19e84a0d7b6fc79386d70d36';
 
 export default class PixabayAPI {
   constructor() {
